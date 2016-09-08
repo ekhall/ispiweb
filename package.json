@@ -27,11 +27,9 @@
     "jsdom": "^9.5.0",
     "mocha": "^3.0.2",
     "react-addons-test-utils": "^15.3.1",
-    "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "babel": "^6.5.2",
     "babel-preset-stage-1": "^6.1.18",
     "express": "^4.14.0",
     "lodash": "^4.15.0",
