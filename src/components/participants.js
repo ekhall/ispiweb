@@ -34,16 +34,16 @@ export default class Participants extends Component {
                     <div className="two wide column"></div>
 
                     <div className="four wide column">
+                      <img className="participant" src="/assets/participants/dc.png" />
+                    </div>
+                    <div className="four wide column">
+                      <img className="participant" src="/assets/participants/chop.png" />
+                    </div>
+                    <div className="four wide column">
+                      <img className="participant" src="/assets/participants/texas.png" />
+                    </div>
+                    <div className="four wide column">
                       <img className="participant" src="/assets/participants/ucsf.png" />
-                    </div>
-                    <div className="four wide column">
-                      <img className="participant" src="/assets/participants/choc.png" />
-                    </div>
-                    <div className="four wide column">
-                      <img className="participant" src="/assets/participants/miami.svg" />
-                    </div>
-                    <div className="four wide column">
-                      <img className="participant" src="/assets/participants/stanford.png" />
                     </div>
 
                   </div>
