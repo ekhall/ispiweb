@@ -55,9 +55,13 @@
 }
 
 .detail {
-  background: rgb(246, 248, 248);
+  background: rgb(242, 244, 244);
   border-top-color: rgb(224, 229, 230);
   border-bottom-color: rgb(224, 229, 230);
+}
+
+.detail2 {
+  background: rgb(250, 250, 250);
 }
 
 .masthead.segment {
@@ -71,25 +75,52 @@
   margin-left: 0.5em;
 }
 .masthead h1.ui.header {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cabin', sans-serif;
   margin-top: 3em;
   margin-bottom: 0em;
-  font-size: 4em;
-  font-weight: normal;
-  line-height: 72px;
+  font-size: 3.8em;
+  font-weight: regular;
+  line-height: 80px;
 }
 .masthead h2 {
+  font-family: 'Roboto', sans-serif;
+
   font-size: 1.7em;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .ui.header {
-  font-family: 'Roboto', sans-serif;
-  color: rgb(32,81,91);
-  font-size:38px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(65, 65, 68);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 46px;
+}
+
+.participant {
+  max-width: 250px;
+  max-height: 250px;
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+  filter: none;
+  -webkit-filter: grayscale(100%);
+  -moz-filter:    grayscale(100%);
+  -ms-filter:     grayscale(100%);
+  -o-filter:      grayscale(100%);
+}
+
+.participant:hover {
+    filter: none;
+    -webkit-filter: none;
+    -moz-filter:    none;
+    -ms-filter:     none;
+    -o-filter:      none;
+    cursor: pointer;
+}
+
+.column-centered {
+
 }
 
 .ui.vertical.stripe {
@@ -99,7 +130,7 @@
   font-size: 2.5em;
 }
 .ui.vertical.stripe h3 {
-  font-size: 1.8em;
+  font-size: 2.2em;
 }
 .ui.vertical.stripe .button + h3,
 .ui.vertical.stripe p + h3 {
