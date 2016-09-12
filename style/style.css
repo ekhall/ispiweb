@@ -200,7 +200,13 @@ header nav a {
 }
 
 .homepage-header {
+  /*
   background-image: linear-gradient(rgb(126, 219, 212) 0%, rgb(126, 219, 212)  100%);
+  */
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/assets/kidhero-crop.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
@@ -213,7 +219,7 @@ header nav a {
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
-  padding-top: 20%;
+  padding-top: 28%;
   font-family: 'Open Sans', arial;
   font-weight: 300;
 }
@@ -247,14 +253,16 @@ header nav a {
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
-  padding-left: 567px;
+  padding-left: 67px;
+  min-height: 250px;
 }
 .home-page-intro-inner > * {
   max-width: 22em;
 }
 .home-page-intro-inner h1 {
   font-weight: normal;
-  color: rgb(29, 97, 102);
+  font-size: 1.4em;
+  color: white;
 }
 
 .logo-1 {
@@ -490,4 +498,5 @@ p {
   font-family: 'Open Sans';
   font-size: 22px;
   line-height: 33px;
+  color: rgb(70, 70, 70);
 }

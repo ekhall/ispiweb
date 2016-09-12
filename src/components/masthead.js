@@ -12,12 +12,14 @@ export default class Masthead extends Component {
   					</div>
   				</div>
   			</div>
+        {/*
         <div className="logos">
           <div className="logo-1">Logo replaces boxes or something...</div>
           <div className="logo-2"></div>
           <div className="logo-3"></div>
           <div className="logo-4"></div>
         </div>
+        */}
 
       </div>
     );
