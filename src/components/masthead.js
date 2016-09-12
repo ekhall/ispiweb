@@ -14,7 +14,7 @@ export default class Masthead extends Component {
               <a className="item">News</a>
               <a className="item">Blog</a>
               <div className="right item">
-                <a className="ui button">Log in</a>
+                <a className="ui button">Something</a>
               </div>
             </div>
           </div>
