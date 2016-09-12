@@ -3,22 +3,76 @@ import React, { Component } from 'react';
 export default class Detail extends Component {
   render() {
     return(
-      <div className="detail2">
-        <div className="ui vertical stripe segment">
-            <div className="ui text container">
-              <h1 className="ui header headline">News and Updates</h1>
-              <h3 className="ui header headline">Improving Healthcare for Children</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-              <a className="ui large button">Read More</a>
-              <h4 className="ui horizontal header divider">
-                <a href="#">September 20, 2016</a>
-              </h4>
-              <h3 className="ui header">Did We Tell You About Our Bananas?</h3>
-              <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-              <a className="ui large button">I'm Still Quite Interested</a>
+      <div className="details">
+        <div className="details-inner">
+          <h2 className="h2-title">News</h2>
+          <div className="ui grid">
+            <div className="four wide column news-item">
+              <a href="#" className="news-anchor">
+                <h2>New Members</h2>
+                <ul className="post-meta">
+                  <li>September 4, 2016</li>
+                  <li>Posted by Kevin</li>
+                </ul>
+                <p className="post-excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [...]
+                </p>
+                <p className="post-more">
+                  Read more →
+                </p>
+              </a>
+            </div>
+
+            <div className="four wide column news-item">
+              <a href="#">
+                <h2>Upcoming Talks</h2>
+                <ul className="post-meta">
+                  <li>September 3, 2016</li>
+                  <li>Posted by Laura</li>
+                </ul>
+                <p className="post-excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [...]
+                </p>
+                <p className="post-more">
+                  Read more →
+                </p>
+              </a>
+            </div>
+
+            <div className="four wide column news-item">
+              <a href="#">
+                <h2>Points of Note</h2>
+                <ul className="post-meta">
+                  <li>September 2, 2016</li>
+                  <li>Posted by Anthony</li>
+                </ul>
+                <p className="post-excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [...]
+                </p>
+                <p className="post-more">
+                  Read more →
+                </p>
+              </a>
+            </div>
+
+            <div className="four wide column news-item">
+              <a href="#">
+                <h2>Something to See</h2>
+                <ul className="post-meta">
+                  <li>August 14, 2016</li>
+                  <li>Posted by Laura</li>
+                </ul>
+                <p className="post-excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [...]
+                </p>
+                <p className="post-more">
+                  Read more →
+                </p>
+              </a>
             </div>
           </div>
         </div>
+      </div>
     );
   }
 }

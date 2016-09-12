@@ -6,7 +6,7 @@ export default class Participants extends Component {
       <div className="detail">
         <div className="ui vertical stripe segment">
           <div className="ui middle aligned stackable grid container">
-            <h1 className="ui header">Participating Institutions</h1>
+            <h1 className="ui header section-header">Participating Institutions</h1>
                   <div className="ui grid">
                     <div className="four wide column">
                       <img className="participant" src="/assets/participants/bambinogesu.png" />

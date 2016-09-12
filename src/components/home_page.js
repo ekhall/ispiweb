@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './header';
 import Masthead from './masthead';
 import Introduction from './introduction';
 import Detail from './detail';
@@ -10,6 +11,7 @@ export default class HomePage extends Component {
   render() {
     return(
       <div>
+        <Header />
         <Masthead />
         <Announcement />
         <Introduction />

@@ -3,31 +3,23 @@ import React, { Component } from 'react';
 export default class Masthead extends Component {
   render() {
     return(
-      <div className="ui inverted vertical masthead center aligned segment">
-
-          <div className="ui container">
-            <div className="ui large secondary inverted pointing menu borderless">
-              <a className="toc item">
-                <i className="sidebar icon"></i>
-              </a>
-              <a className="active item">Home</a>
-              <a className="item">News</a>
-              <a className="item">Blog</a>
-              <div className="right item">
-                <a className="ui button">Something</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="ui text container">
-            <h1 className="ui inverted header">
-              International Society<br/> for Pediatric Innovation
-            </h1>
-            <h2>Improving child health with innovation</h2>
-            <div className="ui huge primary button">Join Us <i className="right arrow icon"></i></div>
-          </div>
-
+      <div className="homepage-header" id="homepage-header">
+  			<div className="section-inner home-page-intro-wrapper">
+  				<div className="home-page-intro">
+  					<div className="home-page-intro-inner">
+  						<h1>We Innovate For Children</h1>
+  						<p>From first principles and through collaboration with colleagues worldwide, we seek to improve children's healthcare through innovative approaches, methods, and collaborations.</p>
+  					</div>
+  				</div>
+  			</div>
+        <div className="logos">
+          <div className="logo-1">Logo replaces boxes or something...</div>
+          <div className="logo-2"></div>
+          <div className="logo-3"></div>
+          <div className="logo-4"></div>
         </div>
+
+      </div>
     );
   }
 }
